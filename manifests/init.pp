@@ -5,7 +5,7 @@
 #   include wireshark
 class wireshark {
   package { 'Wireshark':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => 'http://wiresharkdownloads.riverbed.com/wireshark/osx/Wireshark 1.8.6 Intel 64.dmg',
   }
 }
